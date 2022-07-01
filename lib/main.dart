@@ -1,5 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
-// import 'package:uts_1220428/ui/uts_screen.dart';
+import 'package:uts_1220428/ui/uts_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: const FirestoreScreen(),
+      home: const utsScreen(),
     );
   }
 }
